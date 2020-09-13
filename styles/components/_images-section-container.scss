@@ -1,0 +1,48 @@
+.images-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    height: 30rem;    
+    .images-slideshow-background {
+        width: 100%;
+        .images-slideshow-background-img {
+            width: 90%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .images-slideshow {
+        #image {
+            width: 70%;
+            display: block;
+            margin: 0 auto;
+            margin-top: -26.5rem;
+        }
+    }
+    .images-slideshow-buttons-container {
+        background-color: white;
+        width: 7.5rem;
+        height: 3.5rem;
+        margin-top: -4.5rem;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        & > * { // div containers
+           width: 45%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+            & > * { // button tags
+                height: 90%;
+                width: 90%;
+                background: none;
+                border: none;
+                & > * { // arrow icons
+                    width: 80%;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

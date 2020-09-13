@@ -1,0 +1,110 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 63rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.images-section-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: gray;
+  height: 30rem;
+}
+
+.images-section-container .images-slideshow-background {
+  width: 100%;
+}
+
+.images-section-container .images-slideshow-background .images-slideshow-background-img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.images-section-container .images-slideshow #image {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  margin-top: -26.5rem;
+}
+
+.images-section-container .images-slideshow-buttons-container {
+  background-color: white;
+  width: 7.5rem;
+  height: 3.5rem;
+  margin-top: -4.5rem;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.images-section-container .images-slideshow-buttons-container > * {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.images-section-container .images-slideshow-buttons-container > * > * {
+  height: 90%;
+  width: 90%;
+  background: none;
+  border: none;
+}
+
+.images-section-container .images-slideshow-buttons-container > * > * > * {
+  width: 80%;
+  margin: auto;
+}
+
+.footer-curve-accent-container .footer-curve-accent-img {
+  width: 75%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/*# sourceMappingURL=main.css.map */
